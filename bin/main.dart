@@ -27,7 +27,7 @@ void main() {
         game.start(_difficulty);
         break;
       case '2':
-        print('1');
+        ChangeDifficulty();
         break;
       default:
         print('Your section number not a found!');
