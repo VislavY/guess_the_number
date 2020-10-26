@@ -6,7 +6,7 @@ import 'console.dart';
 var _difficulty = Difficulty.easy;
 
 void main() {
-  var game = Game();
+  final Game game = Game();
 
   while (true) {
     Console.clear();
